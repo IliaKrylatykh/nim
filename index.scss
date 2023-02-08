@@ -1,0 +1,75 @@
+.instruction {
+  background-color: #ffdcdc;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.options {
+  display: flex;
+  .opt {
+    width: 56px;
+    height: 56px;
+    background-color: #0b0d94;
+    margin: 2px;
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.formArea {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  display: flex;
+  .player {
+    background-color: #afffb5;
+    width: 150px;
+    height: 300px;
+    align-items: top;
+    font-size: 50px;
+    .player__ul {
+      margin: 0;
+      font-size: 25px;
+    }
+  }
+  .board__current {
+    background-color: #f2ff91;
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    font-size: 60px;
+    .bot__answer {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      font-size: 35px;
+      color:#5b5b5b;
+    }
+    .board__counter {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+  .bot {
+    background-color: #aab1ff;
+    width: 150px;
+    height: 300px;
+    align-items: top;
+    font-size: 50px;
+    .bot__ul {
+      margin: 0;
+      font-size: 25px;
+    }
+  }
+}
